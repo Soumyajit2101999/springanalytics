@@ -12,6 +12,6 @@ public class TestingController {
 	@GetMapping("/")
 	public ResponseEntity<?> testing()
 	{
-		return ResponseEntity.status(HttpStatus.OK).body("Hello World");
+		return ResponseEntity.status(HttpStatus.OK).body("Hello Soumyajit Das");
 	}
 }
